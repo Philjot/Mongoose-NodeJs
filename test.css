@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wallpaper {
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-shadow: ;
+    font-size: large;
+    font-weight: 300;
+    
+}
+
+.nav {
+    padding-right: 39px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.879);
+    font-weight: 400;
+    transition: 0s;
+}
+
+.center {
+    position: absolute;
+    bottom: 100px;
+    padding-left: 15px;
+    margin-left: 45px;
+    right: 5px;
+    color: rgb(143, 47, 6);
+}
